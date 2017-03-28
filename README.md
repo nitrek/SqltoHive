@@ -9,3 +9,5 @@
     TBLPROPERTIES ('avro.schema.url'='hdfs:///user/d3990782-dev/actor.avsc');
     
     
+    LOAD DATA INPATH '/user/d3990782-dev/part-*.avro' OVERWRITE INTO TABLE actor;
+    
