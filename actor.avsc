@@ -1,0 +1,31 @@
+{
+  "type" : "record",
+  "name" : "actor",
+  "doc" : "Sqoop import of actor",
+  "fields" : [ {
+    "name" : "actor_id",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "actor_id",
+    "sqlType" : "5"
+  }, {
+    "name" : "first_name",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "first_name",
+    "sqlType" : "12"
+  }, {
+    "name" : "last_name",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "last_name",
+    "sqlType" : "12"
+  }, {
+    "name" : "last_update",
+    "type" : [ "null", "long" ],
+    "default" : null,
+    "columnName" : "last_update",
+    "sqlType" : "93"
+  } ],
+  "tableName" : "actor"
+}
