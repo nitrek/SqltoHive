@@ -1,0 +1,11 @@
+# SqltoHive
+     CREATE TABLE actor
+    ROW FORMAT SERDE
+    'org.apache.hadoop.hive.serde2.avro.AvroSerDe'
+    STORED AS INPUTFORMAT
+    'org.apache.hadoop.hive.ql.io.avro.AvroContainerInputFormat'
+    OUTPUTFORMAT
+    'org.apache.hadoop.hive.ql.io.avro.AvroContainerOutputFormat'
+    TBLPROPERTIES ('avro.schema.url'='hdfs:///user/d3990782-dev/actor.avsc');
+    
+    
