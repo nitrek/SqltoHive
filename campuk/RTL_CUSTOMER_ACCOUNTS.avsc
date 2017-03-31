@@ -1,0 +1,37 @@
+{
+  "type" : "record",
+  "name" : "RTL_CUSTOMER_ACCOUNTS",
+  "doc" : "Sqoop import of RTL_CUSTOMER_ACCOUNTS",
+  "fields" : [ {
+    "name" : "CA_INTERNAL_CUST_ID",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "CA_INTERNAL_CUST_ID",
+    "sqlType" : "4"
+  }, {
+    "name" : "CA_ACCT_ID",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "CA_ACCT_ID",
+    "sqlType" : "4"
+  }, {
+    "name" : "CA_TYPE_CD",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "CA_TYPE_CD",
+    "sqlType" : "1"
+  }, {
+    "name" : "CA_CREATED_DT",
+    "type" : [ "null", "long" ],
+    "default" : null,
+    "columnName" : "CA_CREATED_DT",
+    "sqlType" : "93"
+  }, {
+    "name" : "CA_END_DT",
+    "type" : [ "null", "long" ],
+    "default" : null,
+    "columnName" : "CA_END_DT",
+    "sqlType" : "93"
+  } ],
+  "tableName" : "RTL_CUSTOMER_ACCOUNTS"
+}
