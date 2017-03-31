@@ -10,4 +10,5 @@
     
     
     LOAD DATA INPATH '/user/d3990782-dev/part-*.avro' OVERWRITE INTO TABLE actor;
+refer : https://dwbi.org/etl/bigdata/192-sqoop-import-from-mysql
     
